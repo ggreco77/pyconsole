@@ -9,7 +9,7 @@ if sys.version > '3':
 else:
     import urlparse
 
-from astropy.vo.samp import SAMPIntegratedClient
+from astropy.samp import SAMPIntegratedClient
 
 
 class AladinViaSAMP(object):
